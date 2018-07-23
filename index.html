@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zen Route</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body id="input">
+	<nav id="nav" role="navigation">
+		<ul>
+			<li><a href="#"></a></li>
+			<!--
+			<li><a href="index.html">New journey</a></li>
+			<li><a href="routes.html">Routes</a></li>
+			-->
+		</ul>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="twelve columns">
+                <h1>Route</h1>
+                <form action="routes.html">
+                    <p class="form-label"><i class="fa fa-map-marker to"></i>Going to:</p>
+                    <input type="text" name="destination" value="">
+                    <p class="form-label"><i class="fa fa-map-marker from"></i>From:</p>
+                    <input type="text" name="start" value="">
+                    <div class="slider">
+                      <p class="form-label">Zen level:</p>
+                      <input type="range" class="zen-slider" min="1" max="100" value="50">
+                        <div class="left">
+                        <img src="images/rat.svg" width="40em">
+                            <p class="slider-label">rat race</p>
+                        </div>
+                        <div class="right">
+                            <img src="images/master.svg" width="45em">
+                            <p class="slider-label">zen master</p>
+                        </div>
+                    </div>
+                    <a href="routes.html"><input type="submit" value="Go" class="button"></a>
+                </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
